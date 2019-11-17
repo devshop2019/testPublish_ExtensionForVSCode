@@ -1,0 +1,12 @@
+{
+    "CREATE_FUNCTION": {
+		"prefix": "cr",
+		"body": [
+		  "CREATE_FUNCTION(${1}){",
+		  "  ${2|delay,M_DELAY|}(${3:1000});",
+		  "  END_CREATE_FUNCTION",
+		  "}"
+		],
+		"description": "CREATE_FUNCTION"
+	  }
+}
